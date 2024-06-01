@@ -1,0 +1,226 @@
+body{
+    background-image: url(asset/image/10041.webp);
+    background-color: #000;
+    transition: .7s all ease-in-out;
+}
+ul{
+    padding-left: 0;
+}
+.nav-bar{
+    background-image: url(asset/image/10042.webp);
+    border-radius: 10px;
+}
+.nav-bar .navbar img{
+    margin-left: 0;
+    height: 42px;
+}
+.nav-bar ul li{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.nav-bar ul li a{
+    color: #5f6467 !important;
+}
+.navbar{
+    border: 2px #dda011 solid;
+    margin-top: 5px;
+}
+.navbar a{
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+.navbar-toggler{
+    border: 1px #dd2511 solid;
+    font-size: 17px;
+    color: #dd2511;
+    border-radius: 5px;
+    padding: 6px;
+}
+.navbar-toggler-icon{
+    width: 26px;
+    height: 16px;
+    color: #dd2511;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.btn a{
+    color: #fff;
+}
+.btn-danger{
+    background-color: #dd2511;
+}
+.btn-dark{
+    background-color: #2b2b2bea;
+}
+.pic2{
+    background-image: url(asset/image/10043.png);
+
+border-radius: 10px;
+}
+.pic2 img{
+    width: 45px;
+}
+.pic4 .pic4-swiper img{
+    width: 100%;
+}
+.pic5 .pic5-swiper img{
+    width: 100%;
+}
+.pic6{
+    border: 3px red solid;
+}
+
+.pic6 .group-pic .group-pic-link .background-img > img{
+   width: 100%;
+   height: 60px;
+}
+.pic6 .group-pic .group-pic-link .background-img {
+    position: relative;
+    margin: 20px 0;
+}
+
+.pic6 .group-pic .group-pic-link .contain-img {
+    position: absolute;
+    top: 20%;
+    /* width: 180px; */
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+.pic6 .group-pic .group-pic-link .contain-img .img1{
+    width: 140px;
+}
+.pic6 .group-pic .group-pic-link .contain-img .img2{
+    width: 140px;
+}
+.pic6 .group-pic .group-pic-link .contain-img .img3{
+    width: 190px;
+}
+.pic6 .group-pic .group-pic-link .contain-img .img4{
+    width: 110px;
+}
+.contain-left .picture img{
+    width: 150px;
+    padding-right: 10px;
+}
+.contain-left .text p{
+    font-size: 24px;
+    line-height: 35px;
+    color: #000;
+}
+.pic7 img{
+    width: 900px;
+    
+}
+.pic9 img{
+    width: 950px;
+}
+.pic10{
+    border-radius: 20px;
+    border: 2px red solid;
+}
+.pic10 img{
+    border-radius: 20px;
+}
+
+.pic6 .group-pic .button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px red solid;
+    padding: 5px 10px;
+    margin: 20px 0;
+    transition: 7s all ease;
+}
+.pic6 .group-pic .button:hover{
+    background: linear-gradient(to top, #F40000 0%, #DD5F11 100%);
+}
+.pic6 .group-pic .button.active{
+    background: linear-gradient(to top, #F40000 0%, #DD5F11 100%);
+}
+.pic6 .group-pic .button p{
+    margin-bottom: 0;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+}
+.pic6 .group-pic .col-3{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* Footer */
+footer{
+    background: #F40000;
+    background: linear-gradient(to top, #F40000 0%, #DD5F11 100%);
+}
+footer p{
+    color: #fff;
+    font-size:14px;
+    margin-bottom: 4px;
+}
+footer .header-tittle p{
+    color: #fff;
+    font-size:13px;
+    margin-bottom: 4px;
+}
+footer .header-tittle h4{
+    color: #fff;
+    font-size:16px;
+    padding-bottom: 10px;
+}
+footer .copyright{
+    background-image: url('asset/image/10043.png');
+    height: 60px;
+}
+
+@media (max-width: 1400px){
+    .pic3 img{
+        width: 350px;
+    }
+}
+@media (max-width: 1200px){
+    .pic3 img{
+        width: 290px;
+    }
+    .pic9 img{
+        width: 100%;
+    }
+    .pic7 img{
+        width: 100%;
+    }
+    .navbar .nav-link{
+        font-size: 10px;
+    }
+}
+@media (max-width: 991px){
+    .pic3 img {
+        width: 100%;
+    }
+    .contain-left .text p{
+        font-size: 18px;
+    }
+    .pic2 h3{
+        font-size: 16px;
+    }
+    .nav-bar .navbar img {
+        height: 35px;
+    }
+
+
+}
+@media (max-width: 500px){
+    .pic6 .group-pic .button{
+        padding: 2px 0px;
+        margin: 10px 0;
+    }
+    .contain-left .text p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+}
