@@ -60,7 +60,8 @@ ul{
 border-radius: 10px;
 }
 .pic2 img{
-    width: 45px;
+    width: 50px;
+    padding: 5px 0;
 }
 .pic4 .pic4-swiper img{
     width: 100%;
@@ -149,10 +150,10 @@ border-radius: 10px;
     font-weight: 700;
     font-size: 13px;
 }
-.pic6 .group-pic .col-3{
-    padding-left: 5px;
-    padding-right: 5px;
+.pic3 img {
+    width: 100%;
 }
+
 /* Footer */
 footer{
     background: #F40000;
@@ -180,14 +181,10 @@ footer .copyright{
     height: 60px;
 }
 @media (max-width: 1400px){
-    .pic3 img{
-        width: 350px;
-    }
+
 }
 @media (max-width: 1200px){
-    .pic3 img{
-        width: 290px;
-    }
+
     .pic9 img{
         width: 100%;
     }
@@ -199,9 +196,7 @@ footer .copyright{
     }
 }
 @media (max-width: 991px){
-    .pic3 img {
-        width: 100%;
-    }
+
     .contain-left .text p{
         font-size: 18px;
     }
@@ -210,6 +205,10 @@ footer .copyright{
     }
     .nav-bar .navbar img {
         height: 35px;
+    }
+    .pic2 img{
+        width: 40px;
+        padding:  0;
     }
 }
 @media (max-width: 500px){
