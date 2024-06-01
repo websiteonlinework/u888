@@ -179,7 +179,6 @@ footer .copyright{
     background-image: url('asset/image/10043.png');
     height: 60px;
 }
-
 @media (max-width: 1400px){
     .pic3 img{
         width: 350px;
@@ -212,8 +211,6 @@ footer .copyright{
     .nav-bar .navbar img {
         height: 35px;
     }
-
-
 }
 @media (max-width: 500px){
     .pic6 .group-pic .button{
