@@ -4,7 +4,6 @@
 //     windowTop > 200 ? $('.header-top').addClass('d-none') : $('.header-top').removeClass('d-none');
 //     alert(0);
 // });
-// A $( document ).ready() block.
 $(document).ready(function () {
   const swiper1 = new Swiper(".pic4-swiper", {
     loop: true,
