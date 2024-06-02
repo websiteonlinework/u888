@@ -1,8 +1,12 @@
 body{
     background-image: url(asset/image/10041.webp);
     background-color: #000;
-    transition: .7s all ease-in-out;
+    transition: .3s all ease-in-out;
 }
+p{
+    transition: all .2s ease-in-out;
+}
+
 ul{
     padding-left: 0;
 }
@@ -21,6 +25,9 @@ ul{
 }
 .nav-bar ul li a{
     color: #5f6467 !important;
+}
+.nav-bar ul li a:hover{
+    color: #dd2511 !important;
 }
 .navbar{
     border: 2px #dda011 solid;
@@ -84,6 +91,11 @@ border-radius: 10px;
 }
 .pic6 .group-pic .group-pic-link .background-img:hover {
     background: linear-gradient(to top, #F40000 0%, #DD5F11 100%);
+    
+}
+.pic6 .group-pic .group-pic-link .background-img:hover .contain-img img{
+    filter: brightness(0) invert(1);
+    
 }
 
 .pic6 .group-pic .group-pic-link .contain-img {
@@ -96,6 +108,7 @@ border-radius: 10px;
 }
 .pic6 .group-pic .group-pic-link .contain-img .img1{
     width: 140px;
+    
 }
 .pic6 .group-pic .group-pic-link .contain-img .img2{
     width: 140px;
@@ -106,6 +119,10 @@ border-radius: 10px;
 .pic6 .group-pic .group-pic-link .contain-img .img4{
     width: 110px;
 }
+
+
+
+
 .pic6 .tab-content p b{
     color: #F81123 !important;
 }
@@ -162,9 +179,19 @@ border-radius: 10px;
 }
 .pic6 .group-pic .button:hover{
     background: linear-gradient(to top, #F40000 0%, #DD5F11 100%);
+    color: #fff;
+}
+.pic6 .group-pic .button:hover p{
+    color: #fff;
 }
 .pic6 .group-pic .button.active{
     background: linear-gradient(to top, #F40000 0%, #DD5F11 100%);
+}
+.pic6 .group-pic .button.active p{
+    color: #fff;
+}
+.pic6 .group-pic .group-pic-link .active .background-img .contain-img img{
+    filter: brightness(0) invert(1);
 }
 .pic6 .group-pic .button p{
     margin-bottom: 0;
@@ -183,16 +210,19 @@ footer{
     background: linear-gradient(to top, #F40000 0%, #DD5F11 100%);
 }
 footer p{
-    color: #fff;
+    color: #eaeaeaf1;
     font-size:14px;
     margin-bottom: 4px;
     font-weight: 600;
 }
 footer .header-tittle p{
-    color: #fff;
+    color: #eaeaeaf1;
     font-size:12px;
     margin-bottom: 6px;
     font-weight: 600;
+}
+footer .header-tittle p:hover{
+    color: #ffffff;
 }
 footer .header-tittle h4{
     color: #fff;
