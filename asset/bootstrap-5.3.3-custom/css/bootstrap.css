@@ -601,8 +601,8 @@ legend + * {
   margin-bottom: 10px;
 }
 .pic8 .row, .pic3 .row {
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -5px;
+  margin-right: -5px;
 }
 .pic8 .img-container, .pic3 .img-container {
   padding: 5px;

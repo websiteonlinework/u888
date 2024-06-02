@@ -267,6 +267,9 @@ footer .copyright{
         padding-right: 2px;
         padding-left: 2px;
     }
+    .w-90{
+        width: unset;
+    }
 }
 @media (max-width: 500px){
     .pic6 .group-pic .button{
