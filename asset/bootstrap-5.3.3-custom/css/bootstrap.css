@@ -594,7 +594,7 @@ legend + * {
 }
 .m-perent-col-top {
   margin-top: 10px;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 .m-perent-col-bottom {
   margin-top: 0;
@@ -607,7 +607,15 @@ legend + * {
 .pic8 .img-container, .pic3 .img-container {
   padding: 5px;
 }
-
+.w-90{
+  width: 90%;
+}
+.w-80{
+  width: 80%;
+}
+.w-70{
+  width: 70%;
+}
 /* End custom */
 ::-webkit-search-decoration {
   -webkit-appearance: none;

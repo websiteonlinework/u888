@@ -80,6 +80,10 @@ border-radius: 10px;
 .pic6 .group-pic .group-pic-link .background-img {
     position: relative;
     margin: 20px 0;
+    border-radius: 30px;
+}
+.pic6 .group-pic .group-pic-link .background-img:hover {
+    background: linear-gradient(to top, #F40000 0%, #DD5F11 100%);
 }
 
 .pic6 .group-pic .group-pic-link .contain-img {
@@ -102,15 +106,34 @@ border-radius: 10px;
 .pic6 .group-pic .group-pic-link .contain-img .img4{
     width: 110px;
 }
-.contain-left .picture img{
+.pic6 .tab-content p b{
+    color: #F81123 !important;
+}
+.pic6 .contain-left .picture img{
     width: 150px;
     padding-right: 10px;
 }
-.contain-left .text p{
+.pic6 .contain-left .text p{
     font-size: 24px;
     line-height: 35px;
-    color: #000;
+    color: #212529;
 }
+.pic6 .contain-left{
+    padding-top: 10px;
+    height: 380px;
+    overflow-y: auto;
+}
+.pic6 .group-pic .group-pic-link .active .background-img {
+    background: linear-gradient(to top, #F40000 0%, #DD5F11 100%);
+}
+.pic6 .youtube{
+    position: relative;
+}
+.pic6 .youtube iframe{
+    aspect-ratio: 16 / 9;
+    width: 74%;
+}
+
 .pic7 img{
     width: 900px;
     
@@ -197,7 +220,7 @@ footer .copyright{
 }
 @media (max-width: 991px){
 
-    .contain-left .text p{
+    .pic6 .contain-left .text p{
         font-size: 18px;
     }
     .pic2 h3{
@@ -210,13 +233,17 @@ footer .copyright{
         width: 40px;
         padding:  0;
     }
+    .pic6 .row > *{
+        padding-right: 2px;
+        padding-left: 2px;
+    }
 }
 @media (max-width: 500px){
     .pic6 .group-pic .button{
         padding: 2px 0px;
         margin: 10px 0;
     }
-    .contain-left .text p {
+    .pic6 .contain-left .text p {
         font-size: 14px;
         line-height: 1.6;
     }
